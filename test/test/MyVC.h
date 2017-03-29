@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyVC.h
 //  test
 //
 //  Created by SunGuoYan on 17/3/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property(nonatomic,strong)NSDictionary *dic;
+@interface MyVC : UIViewController
 
 @end
-

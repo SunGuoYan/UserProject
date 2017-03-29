@@ -14,6 +14,7 @@
 		F1968B051E8B5E840059B391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1968B041E8B5E840059B391 /* Assets.xcassets */; };
 		F1968B081E8B5E840059B391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1968B061E8B5E840059B391 /* LaunchScreen.storyboard */; };
 		F1968B131E8B5E840059B391 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1968B121E8B5E840059B391 /* testUITests.m */; };
+		F1968B1F1E8B64490059B391 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1968B1E1E8B64490059B391 /* MyVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F1968B0E1E8B5E840059B391 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1968B121E8B5E840059B391 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		F1968B141E8B5E840059B391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1968B1D1E8B64490059B391 /* MyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		F1968B1E1E8B64490059B391 /* MyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F1968AFC1E8B5E840059B391 /* AppDelegate.m */,
 				F1968AFE1E8B5E840059B391 /* ViewController.h */,
 				F1968AFF1E8B5E840059B391 /* ViewController.m */,
+				F1968B1D1E8B64490059B391 /* MyVC.h */,
+				F1968B1E1E8B64490059B391 /* MyVC.m */,
 				F1968B011E8B5E840059B391 /* Main.storyboard */,
 				F1968B041E8B5E840059B391 /* Assets.xcassets */,
 				F1968B061E8B5E840059B391 /* LaunchScreen.storyboard */,
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1968B1F1E8B64490059B391 /* MyVC.m in Sources */,
 				F1968B001E8B5E840059B391 /* ViewController.m in Sources */,
 				F1968AFD1E8B5E840059B391 /* AppDelegate.m in Sources */,
 				F1968AFA1E8B5E840059B391 /* main.m in Sources */,
@@ -408,6 +414,7 @@
 				F1968B191E8B5E840059B391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1968B1A1E8B5E840059B391 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +423,7 @@
 				F1968B1C1E8B5E840059B391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
